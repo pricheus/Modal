@@ -1,0 +1,106 @@
+*{
+    box-sizing: content-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: url('pexels-kehn-hermano-3849167.jpg');
+    background-size: cover;
+    font-size: 1.25rem;
+    color: #fff;
+}
+
+
+
+.firstContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+}
+
+.open{
+    background-color: #fff;
+    color: #222;
+    border-radius: 9px;
+    width: 30rem;
+    height: 15rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+button{
+    background-color: #49A6E9;
+    color: #fff;
+    border: none;
+    width: 15ch;
+    height: 3ch;
+    border-radius: 6px;
+    font-size: large;
+
+    margin-top: 2ch;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #fff;
+    color: #49A6E9;
+    border: 2px solid #49A6E9;
+}
+
+
+
+.secondContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+
+    bottom: 339px;
+    left: 238px;
+
+    
+}
+.close{
+    background-color: #fff;
+    color: #222;
+    border-radius: 9px;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ferme{
+    width: 30rem;
+    height: 15rem;
+
+    
+}
+
+
+.material-symbols-outlined {
+    margin-top: 3CH;
+  color: red;
+  cursor: pointer;
+}
+
+.gg-close{
+color: aqua;
+size: 23ch;
+}
+
+
